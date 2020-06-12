@@ -32,3 +32,13 @@ An application that takes hamburger orders with the following inputs:
 possible tests = 2 x 2 x 2 x 2 x 3 x 2
 possible tests = 96
 ```
+
+## Utilizing pairwise testing
+
+## Step 1
+
+Start by ordering the parameters where the parameter with the most values is first and the one with the least values is last
+
+```
+drink, bun, patties, cheese, side, order
+```
