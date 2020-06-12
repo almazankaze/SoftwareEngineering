@@ -6,12 +6,9 @@ Helpful for designing tests for programs that have multiple parameters
 
 An application that takes hamburger orders with the following inputs:
 
-1. type of bun
-  - sesame
-  - non-sesame
-2. number of patties
-  - one
-  - two
+1. type of bun        2. number of patties
+- sesame              - one
+- non-sesame          - two
 3. cheese
   - yes
   - no
