@@ -25,3 +25,10 @@ An application that takes hamburger orders with the following inputs:
 6. type of order
    - takeout
    - in house
+
+## Number of possible tests
+
+---
+possible tests = 2 x 2 x 2 x 2 x 3 x 2
+possible tests = 96
+---
