@@ -28,7 +28,7 @@ An application that takes hamburger orders with the following inputs:
 
 ## Number of possible tests
 
----
+```
 possible tests = 2 x 2 x 2 x 2 x 3 x 2
 possible tests = 96
----
+```
