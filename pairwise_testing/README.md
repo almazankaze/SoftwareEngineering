@@ -41,3 +41,15 @@ Start by ordering the parameters where the parameter with the most values is fir
 ```
 drink, bun, patties, cheese, side, order
 ```
+
+#### Step 2
+Create a table and fill the first column with the first parameter's values two times each (two is the number of values of the next highest paramter)
+
+```
+drink  |bun  |patties  |cheese  |side  |order
+soda   |
+soda
+water
+water
+other
+other
