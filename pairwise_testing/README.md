@@ -122,6 +122,8 @@ other  |  sesame |  one      |  no      |  fries |  out
 other  |  none   |  two      |  yes     |  onion |  in
 ```
 
+The rest of the values can be anything
+
 ## Final possible tests
 
 Now left with 8 test cases as opposed to 96 :+1:
