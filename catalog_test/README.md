@@ -22,12 +22,21 @@ Document was created to get test cases for the simple functionality of an enemy 
 common ones:
 
 boolean
-[in/out] true
-[in/out] false
+-true
+-false
 
 sequence
-[in/out] empty
-[in/out] 1 element
-[in/out] more than 1
-[in/out] max elements
-[in] out of bounds
+-empty
+-1 element
+-more than 1
+-max elements
+-out of bounds
+
+range low...high
+- low
+- low - 1
+- value between low and high
+- high
+- high + 1
+
+
