@@ -87,8 +87,37 @@ Switch the second pair of values in patties
 drink  |  bun    |  patties  |  cheese  |  side  |  order
 soda   |  sesame |  one      |
 soda   |  none   |  two      |
-water  |  sesame |  **two**      |
-water  |  none   |  **one**      |
+water  |  sesame |  two      |
+water  |  none   |  one      |
 other  |  sesame |  one      |
 other  |  none   |  two      |
+```
+
+#### Step 5
+Fill in the rest making sure to swap rows when necessary to get every combination
+
+```
+drink  |  bun    |  patties  |  cheese  |  side  |  order
+soda   |  sesame |  one      |  yes     |  onion |  out
+soda   |  none   |  two      |  no      |  fries |  in
+water  |  sesame |  two      |  yes     |  fries |  out
+water  |  none   |  one      |  no      |  onion |  in
+other  |  sesame |  one      |  no      |  fries |  out
+other  |  none   |  two      |  yes     |  onion |  in
+```
+
+#### Step 6
+Missing combinations for (sesame,in) and (none,out). Can't swap any more rows since all the other rows have previously been swapped.
+Insert two new rows for missing combinations.
+
+```
+drink  |  bun    |  patties  |  cheese  |  side  |  order
+soda   |  sesame |  one      |  yes     |  onion |  out
+soda   |  none   |  two      |  no      |  fries |  in
+       |  sesame |           |          |        |  in
+water  |  sesame |  two      |  yes     |  fries |  out
+water  |  none   |  one      |  no      |  onion |  in
+       |  none   |           |          |        |  out
+other  |  sesame |  one      |  no      |  fries |  out
+other  |  none   |  two      |  yes     |  onion |  in
 ```
