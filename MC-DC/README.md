@@ -23,9 +23,9 @@ test |  a  |  b  |  c  |  result
 8    |  1  |  1  |  1  |  1
 ```
 
-test 4 and 8 shows a independantly affect outcome
-test 6 and 8 show b independantly affect outcome
-test 7 and 8 shows c independantly affect outcome
+- test 4 and 8 shows a independantly affect outcome
+- test 6 and 8 show b independantly affect outcome
+- test 7 and 8 shows c independantly affect outcome
 
 keep tests 4, 6, 7, 8. The others are redundant
 ```
