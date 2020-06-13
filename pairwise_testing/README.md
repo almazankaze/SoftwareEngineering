@@ -121,3 +121,7 @@ water  |  none   |  one      |  no      |  onion |  in
 other  |  sesame |  one      |  no      |  fries |  out
 other  |  none   |  two      |  yes     |  onion |  in
 ```
+
+## Final possible tests
+
+Now left with 8 test cases as opposed to 96 :+1:
