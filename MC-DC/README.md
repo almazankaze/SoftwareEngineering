@@ -4,8 +4,34 @@ In a compound conditional statement, each term of the compound conditional must 
 
 ## example
 ```
-if((a || b) && c)
+if(a && b && c)
 return true;
 else
 return false;
+```
+
+### possible combinations
+```
+test |  a  |  b  |  c  |  result  
+1    |  0  |  0  |  0  |  0
+2    |  0  |  0  |  1  |  0
+3    |  0  |  1  |  0  |  0
+4    |  0  |  1  |  1  |  0
+5    |  1  |  0  |  0  |  0
+6    |  1  |  0  |  1  |  0
+7    |  1  |  1  |  0  |  0
+8    |  1  |  1  |  1  |  1
+```
+
+test 4 and 8 shows a independantly affect outcome
+test 6 and 8 show b independantly affect outcome
+test 7 and 8 shows c independantly affect outcome
+
+keep tests 4, 6, 7, 8. The others are redundant
+```
+test |  a  |  b  |  c  |  result  
+1    |  0  |  1  |  1  |  0
+2    |  1  |  0  |  1  |  0
+3    |  1  |  1  |  0  |  0
+4    |  1  |  1  |  1  |  1
 ```
